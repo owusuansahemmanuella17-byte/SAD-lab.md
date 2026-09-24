@@ -1,5 +1,6 @@
 graph TD
 ```mermaid
+flowchart TD
     Manager[Manager] -->|Assigns Project| Team[Team]
     Team -->|Distributes| Employee1[Employee 1]
     Team -->|Distributes| Employee2[Employee 2]
